@@ -2,7 +2,7 @@
 jsx
 import React, { useState, useEffect } from 'react';
 import './SearchBar.css';
-import countriesData from './index.json';
+import countriesData from './file.json';
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
